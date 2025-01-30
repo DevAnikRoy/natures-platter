@@ -18,31 +18,65 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
-      <!-- daisyUI CDN -->
-      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    </script>
+    <!-- daisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>Nature's Platter</title>
 </head>
 
-<body class="google-font-sora">
+<body class="google-font-sora p-5">
 
     <!-- Header section -->
 
-    <header>
+    <header class="md:container md:mx-auto">
+        <!-- navbar -->
+        <nav class="flex justify-between items-center">
+            <!-- nav left -->
+            <div class="flex justify-center items-center">
+                <a class="hidden md:block " href=""><img src="images/logo-header.png" alt="Desktop Logo"></a>
+                <a class="block md:hidden" href=""><img src="images/logo-header-2.png" alt="Mobile Logo"></a>
+            </div>
+            <!-- nav right -->
+            <div class=" items-center gap-10 hidden md:inline-flex">
+                <!-- nav right-1 -->
+                <div class="hidden lg:block">
+                    <ul class="flex gap-6">
+                        <li><a class="text-lg" href="">Product</a></li>
+                        <li><a class="text-lg" href="">Services</a></li>
+                        <li><a class="text-lg" href="">Contact us</a></li>
+                        <li><a class="text-lg" href="">About us</a></li>
+                    </ul>
+                </div>
+                <!-- nav right right-2 -->
+                <div class="flex items-center gap-4">
+                    <a href=""><i class="text-xl fa-solid fa-magnifying-glass"></i></a>
+                    <a href=""><i class="text-xl fa-solid fa-cart-plus"></i></a>
+                    <button class="py-2 px-7 text-black text-lg rounded-lg border-[1px] border-[#179800]">Login</button>
+                    <button class="bg-[#179800] py-2 px-7 text-white text-lg rounded-lg">Register</button>
+                    
+
+                </div>
+            </div>
+            <a class="block lg:hidden" href=""><i class=" text-3xl fa-solid fa-bars"></i></a>
+
+        </nav>
 
     </header>
 
     <!-- Main section -->
 
-    <main>
+    <main class="md:container md:mx-auto">
 
     </main>
 
