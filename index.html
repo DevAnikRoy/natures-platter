@@ -39,14 +39,15 @@
 
     <!-- Header section -->
 
-    <header class="lg:px-20 md:px-10 sm:px-5 mt-5 bg-gradient-to-t from-[#EFECE4] to-[#FFFFFE]">
+    <header class="lg:px-20 md:px-10 sm:px-5 mt-5 bg-gradient-to-t from-[#EFECE4] to-[#FFFFFE] px-3">
 
         <!-- navbar -->
 
         <nav class="flex justify-between items-center">
             <!-- nav left -->
             <div class="flex justify-center items-center">
-                <a class="hidden md:block " href=""><img src="images/logo-header.png" alt="Desktop Logo"></a>
+                <a class="hidden md:block " href=""><img src="images/logo-header.png"
+                        alt="Desktop Logo"></a>
                 <a class="block md:hidden" href=""><img src="images/logo-header-2.png" alt="Mobile Logo"></a>
             </div>
             <!-- nav right -->
@@ -54,18 +55,24 @@
                 <!-- nav right-1 -->
                 <div class="hidden lg:block">
                     <ul class="flex gap-6">
-                        <li><a class="text-lg" href="">Product</a></li>
-                        <li><a class="text-lg" href="">Services</a></li>
-                        <li><a class="text-lg" href="">Contact us</a></li>
-                        <li><a class="text-lg" href="">About us</a></li>
+                        <li><a class="text-lg hover:text-[#179800] hover:font-bold hover:text-2xl" href="">Product</a>
+                        </li>
+                        <li><a class="text-lg hover:text-[#179800] hover:font-bold hover:text-2xl" href="">Services</a>
+                        </li>
+                        <li><a class="text-lg hover:text-[#179800] hover:font-bold hover:text-2xl" href="">Contact
+                                us</a></li>
+                        <li><a class="text-lg hover:text-[#179800] hover:font-bold hover:text-2xl" href="">About us</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- nav right right-2 -->
                 <div class="flex items-center gap-4">
                     <a href=""><i class="text-xl fa-solid fa-magnifying-glass"></i></a>
                     <a href=""><i class="text-xl fa-solid fa-cart-plus"></i></a>
-                    <button class="py-2 px-7 text-black text-lg rounded-lg border-[1px] border-[#179800]">Login</button>
-                    <button class="bg-[#179800] py-2 px-7 text-white text-lg rounded-lg">Register</button>
+                    <button
+                        class="py-2 px-7 text-black text-lg rounded-lg border-[1px] border-[#179800] hover:bg-[#179800] hover:text-white hover:font-bold">Login</button>
+                    <button
+                        class="bg-[#179800] py-2 px-7 text-white text-lg rounded-lg hover:bg-white hover:border-[#179800] hover:border-[1px] hover:text-[#179800] hover:font-bold">Register</button>
 
 
                 </div>
@@ -102,7 +109,7 @@
     <main class="">
 
         <!-- Slider/Carousal -->
-        <div class="carousel w-full lg:h-[550px] bg-[#EFEBE3]">
+        <div class="carousel w-full lg:h-[550px] bg-[#EFEBE3] px-3">
             <!-- slider-1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row p-12 lg:p-24">
@@ -119,7 +126,7 @@
 
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" class="text-2xl ">❮</a>
+                    <a href="#slide3" class="text-2xl ">❮</a>
                     <a href="#slide2" class="text-2xl">❯</a>
                 </div>
             </div>
@@ -129,7 +136,8 @@
                     <!-- text content -->
                     <div class="space-y-8 lg:space-y-12 flex-1">
                         <h1 class="font-bold text-6xl text-[#179800]">Packed with Vitamins <br> & Minerals</h1>
-                        <p>Green veggies are loaded with essential nutrients that support heart health and digestion.</p>
+                        <p>Green veggies are loaded with essential nutrients that support heart health and digestion.
+                        </p>
                         <button class="btn bg-[#179800] text-white hover:text-black">Purchase</button>
                     </div>
                     <!-- image content -->
@@ -163,12 +171,12 @@
                     <a href="#slide1" class="text-2xl">❯</a>
                 </div>
             </div>
-            
+
         </div>
 
 
         <!-- Service section -->
-        <section class="mt-36 lg:px-28 md:px-12 sm:px-6">
+        <section class="mt-36 lg:px-28 md:px-12 sm:px-6 px-3">
             <h2 class="mb-20 text-4xl font-semibold text-[#179800]">Services</h2>
             <!-- service card -->
             <div class="grid sm:grid-cols-3 grid-cols-1 gap-5">
@@ -205,7 +213,7 @@
         </section>
 
         <!-- Popular Products -->
-        <section class="mt-36 pb-20 pt-20 lg:p-24 bg-[#EFEBE3] lg:px-28 md:px-12 sm:px-6">
+        <section class="mt-36 pb-20 pt-20 lg:p-24 bg-[#EFEBE3] lg:px-28 md:px-12 sm:px-6 px-3">
             <!-- Popular Products text -->
             <h2 class="mb-20   text-4xl font-semibold text-[#179800]">Popular Products</h2>
             <!-- Popular Products cards -->
@@ -217,7 +225,9 @@
                         <p class="text-[#1F2937] mt-2">Discover a world of treats, toys, and essentials handpicked for
                         </p>
 
-                        <button class="text-lg px-5 py-2 rounded-lg bg-white mt-6">Buy Now </button>
+                        <button
+                            class="text-lg px-5 py-2 rounded-lg bg-white mt-6  hover:text-[#179800] hover:border-[#179800] hover:border-[3px]    hover:font-bold">Buy
+                            Now </button>
                     </div>
                     <div class="place-items-end">
                         <img class="" src="images/vegetable-offer.png" alt="">
@@ -226,7 +236,8 @@
                 <!-- small cards -->
                 <div class="grid grid-cols-2 lg:grid-cols-3  gap-4 w-[100%] lg:w-[60%]">
                     <!--  cards-1 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/onion.png" alt="">
@@ -245,7 +256,8 @@
                         </div>
                     </div>
                     <!--  cards-2 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/tomato.png" alt="">
@@ -264,7 +276,8 @@
                         </div>
                     </div>
                     <!--  cards-3 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/potato.png" alt="">
@@ -283,7 +296,8 @@
                         </div>
                     </div>
                     <!--  cards-4 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/tomato.png" alt="">
@@ -302,7 +316,8 @@
                         </div>
                     </div>
                     <!--  cards-5 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/potato.png" alt="">
@@ -321,7 +336,8 @@
                         </div>
                     </div>
                     <!--  cards-6 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/tomato.png" alt="">
@@ -340,7 +356,8 @@
                         </div>
                     </div>
                     <!--  cards-7 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/onion.png" alt="">
@@ -359,7 +376,8 @@
                         </div>
                     </div>
                     <!--  cards-8 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 py-2 bg-white rounded-xl">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/tomato.png" alt="">
@@ -378,7 +396,8 @@
                         </div>
                     </div>
                     <!--  cards-9 -->
-                    <div class=" flex items-center gap-5 px-4 bg-white rounded-xl hidden lg:inline-flex">
+                    <div
+                        class="hover:cursor-pointer hover:bg-gradient-to-br from-[#53DB3A] to-[#D1F5CA] flex items-center gap-5 px-4 bg-white rounded-xl hidden lg:inline-flex">
                         <!-- image -->
                         <div class="w-14 h-14 bg-[#EFEBE3] place-items-center rounded-xl">
                             <img class="pt-1" src="images/potato.png" alt="">
@@ -406,7 +425,7 @@
         </section>
 
         <!-- Arrival and Offer section -->
-        <section class="mt-36 mb-96 lg:px-28 md:px-12 sm:px-6">
+        <section class="mt-36 mb-96 lg:px-28 md:px-12 sm:px-6 px-3">
             <!-- arrival  heading -->
             <h2 class="mb-20 text-4xl font-semibold text-[#179800]">Arrival & Offers</h2>
             <!-- offers cards -->
@@ -461,7 +480,8 @@
                     <div class="mb-5">
                         <input class="w-auto px-5 py-4 bg-white rounded-lg" type="email" placeholder="Enter email">
                     </div>
-                    <button class="px-3 py-2 bg-[#179800] rounded-md text-white text-lg">Subscribe</button>
+                    <button
+                        class="px-3 py-2 bg-[#179800] rounded-md text-white text-lg hover:bg-white hover:text-[#179800] hover:font-bold hover:border-[#179800] hover:border-[1px]">Subscribe</button>
                 </div>
             </div>
         </section>
